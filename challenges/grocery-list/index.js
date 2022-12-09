@@ -1,8 +1,11 @@
-let para = document.getElementById("para");
-let list = document.getElementById("list");
+console.log("Its works");
+
 let title = document.getElementById("title");
-para.style.color = "red";
+let paragraph = document.getElementById("para");
+let myList = document.getElementById("list");
 
-list.style.listStyleType = "none";
+title.innerText = "My Grocery List";
 
-title.innerText = "This is My Grocery List";
+paragraph.style.color = "red";
+
+myList.style.listStyleType = "none";
